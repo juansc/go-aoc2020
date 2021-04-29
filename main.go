@@ -17,7 +17,7 @@ func main() {
 	day :=os.Args[1]
 	runner, ok := runners[day]
 	if !ok {
-		fmt.Println("no solution for day %s", day)
+		fmt.Println("no solution for day", day)
 		return
 	}
 	lines, err := lib.ReadLines(fmt.Sprintf("./days/inputs/day%s.txt", day))
