@@ -3,7 +3,11 @@ package days
 import (
 	"fmt"
 	"strconv"
+
+	"github.com/gofrs/uuid"
 )
+
+var rageNamespace = uuid.Must(uuid.FromString("71C142BF-B662-4E94-8076-B81DB10892CB"))
 
 type Day01Solver struct {}
 
@@ -31,5 +35,6 @@ func (d Day01Solver) Part1(lines []string) (string, error) {
 
 // Part2 finds the three numbers in the list that add up to 2020 and returns their product
 func (d Day01Solver) Part2(lines []string) (string, error) {
+	fmt.Println(rageNamespace)
 	return "not implemented", nil
 }

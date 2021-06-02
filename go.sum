@@ -1,0 +1,4 @@
+github.com/gofrs/uuid v3.2.0+incompatible h1:y12jRkkFxsd7GpqdSZ+/KCs/fJbqpEXSGd4+jfEaewE=
+github.com/gofrs/uuid v3.2.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
+github.com/juansc/go-aoc2020 v0.0.0-20210429065219-128f191afd1b h1:bOc6c1i0OhpJ0ok8fTYPl5nX1sqa4Vnii2C64QNHjJ4=
+github.com/juansc/go-aoc2020 v0.0.0-20210429065219-128f191afd1b/go.mod h1:3sHnkpxoZWxxC06DmxCR2gBUIig1st4oisAqwHPkS64=
